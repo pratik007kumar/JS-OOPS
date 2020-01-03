@@ -17,3 +17,13 @@ var obj2=obj1;
 obj1.age=35;
 //value are link to object
 console.log(obj2);
+
+
+function change(a,b) {
+	a="ram"
+	b.name="Rajwe";
+}
+
+change(a,obj1);
+
+console.log(obj1);
