@@ -1,4 +1,4 @@
-//fucntion constructer
+//function constructor
 
 var Presion= function(name,age){
 this.name=name;
@@ -16,3 +16,4 @@ var pratik=new Presion('pratik kumar',29);
 
 pratik.logName();
 pratik.logAge();
+
